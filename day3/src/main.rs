@@ -3,14 +3,11 @@ use std::env;
 fn main() {
     let args: Vec<String> = env::args().collect();
 
-    let part = &args[1];
-    if part == "part1" {
-        part1(&args[2..]);
-    } else if part == "part2" {
-        part2(&args[2..]);
-    } else {
-        panic!("Invalid part {}", part);
-    }
+    match args[1].as_str() {
+        "part1" => part1(&args[2..]),
+        "part2" => part2(&args[2..]),
+        x => panic!("Invalid part {}", x),
+    };
 }
 
 fn part1(lines: &[String]) {
