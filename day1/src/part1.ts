@@ -1,0 +1,1 @@
+console.log(process.argv.slice(2).reduce(([a,b],r)=>(v=a+(r[0]=='R'?1:-1)*r.slice(1),[v,v%100?b:b+1]),[50,0]))

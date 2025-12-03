@@ -1,0 +1,9 @@
+{
+  "name": "aoc-2025-day1",
+  "scripts": {
+    "preinstall": "node ../only-pnpm.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24"
+  }
+}
