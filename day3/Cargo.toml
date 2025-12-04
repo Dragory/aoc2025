@@ -2,4 +2,9 @@
 name = "day3"
 edition = "2024"
 
-[dependencies]
+[dev-dependencies]
+criterion = "0.5.1"
+
+[[bench]]
+name = "bench"
+harness = false
