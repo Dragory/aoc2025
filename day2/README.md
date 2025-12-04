@@ -1,5 +1,9 @@
 # Day 2
 
+## Requirements
+* Node.js 24
+* pnpm
+
 ## Install
 ```sh
 pnpm install

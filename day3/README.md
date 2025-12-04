@@ -1,5 +1,9 @@
 # Day 3
 
+## Requirements
+* Rust
+* Cargo
+
 ## Build
 ```sh
 cargo build --release
