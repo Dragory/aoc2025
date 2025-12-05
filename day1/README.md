@@ -1,4 +1,5 @@
 # Day 1
+https://adventofcode.com/2025/day/1
 
 ## Requirements
 * Node.js 24
