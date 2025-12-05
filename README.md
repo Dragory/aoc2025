@@ -7,3 +7,4 @@ Each day's solution is a self-contained standalone project. Requirements and ins
 * [Day 2](./day2)
 * [Day 3](./day3)
 * [Day 4](./day4)
+* [Day 5](./day5)

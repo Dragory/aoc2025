@@ -1,0 +1,10 @@
+[package]
+name = "day5"
+edition = "2024"
+
+[dev-dependencies]
+criterion = "0.5.1"
+
+[[bench]]
+name = "bench"
+harness = false

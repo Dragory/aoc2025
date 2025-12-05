@@ -1,4 +1,4 @@
-# Day 4
+# Day 5
 
 ## Requirements
 * Rust
@@ -11,8 +11,8 @@ cargo build --release
 
 ## Run
 ```sh
-./target/release/day4 part1 input/input.txt
-./target/release/day4 part2 input/input.txt
+./target/release/day5 part1 input/input.txt
+./target/release/day5 part2 input/input.txt
 ```
 
 ## Test

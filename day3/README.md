@@ -14,3 +14,13 @@ cargo build --release
 ./target/release/day3 part1 input/input.txt
 ./target/release/day3 part2 input/input.txt
 ```
+
+## Test
+```sh
+cargo test
+```
+
+## Benchmark
+```sh
+cargo bench
+```
